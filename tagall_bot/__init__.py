@@ -14,7 +14,6 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
 LOGGER = logging.getLogger(__name__)
 
 TOKEN = environ.get("TOKEN", "")
